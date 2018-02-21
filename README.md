@@ -1,6 +1,5 @@
 ---
 title: 首页
-description: 赵兴隆的博客首页
 ---
 
 ## Welcome to GitHub Pages
