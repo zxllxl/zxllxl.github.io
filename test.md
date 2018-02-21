@@ -1,6 +1,5 @@
 ---
 title: i am a test file
-theme: jekyll-theme-slate
 ---
 # test
-[zhaoxinglong](http://zhaoxinglong.com/)
+[赵兴隆的博客](http://zhaoxinglong.com/)
