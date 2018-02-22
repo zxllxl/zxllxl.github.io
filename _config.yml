@@ -7,7 +7,7 @@
 
 # Site settings
 title: 赵兴隆的技术专栏
-brief-intro: Android and Python Coder
+brief-intro: I am a coder
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zhaoxinglong.com" # the base hostname & protocol for your site
 
