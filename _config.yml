@@ -14,13 +14,13 @@ url: "http://zhaoxinglong.com" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: #gaohaoyang126
-facebook_username: #gaohaoyang.water
+twitter_username: 
+facebook_username: 
 github_username:  zxllxl
 email: zxllxl@qq.com
-weibo_username: zxllxl
-zhihu_username: zxllxl
-linkedIn_username: zxllxl
+weibo_username: 
+zhihu_username: 
+linkedIn_username: 
 dribbble_username:
 
 description_footer: 来自赵兴隆的个人专栏！
