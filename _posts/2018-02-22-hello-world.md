@@ -5,9 +5,6 @@ categories: jekyll
 tags: jekyll
 ---
 
-* content
-{:toc}
-
 # Hello world, This is my first blog.
 ``` bash
 week
