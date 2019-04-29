@@ -6,6 +6,9 @@ tags: jekyll
 excerpt: 用 jekyll 创建博客。
 ---
 
+* content
+{:toc}
+
 # Hello world, This is my first blog.
 ``` bash
 week
