@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>jquery 自动生成目录插件 autoMenu</title>
+<link rel="stylesheet" href="css/jquery.autoMenu.css">
+<style>
+body {
+  line-height: 1.6;
+}
+h2 {
+  margin: 50px 0 25px;
+  border-bottom: 1px solid #eee;
+  font-size: 26px;
+}
+h3 {
+    font-size: 22px;
+    margin: 50px 0 20px;
+}
+.content {
+  width: 700px;
+  margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<div class="content">
+<h2>Vue.js</h2><p>Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式JavaScript框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，方便与第三方库或既有项目整合。</p><h2>简介</h2><p>Vue.js是一套构建用户界面的渐进式框架。与其他重量级框架不同的是，Vue 采用自底向上增量开发的设计。Vue 的核心库只关注视图层，并且非常容易学习，非常容易与其它库或已有项目整合。另一方面，Vue 完全有能力驱动采用单文件组件和Vue生态系统支持的库开发的复杂单页应用。<br>Vue.js 的目标是通过尽可能简单的 API 实现响应的数据绑定和组合的视图组件。<br>Vue.js 自身不是一个全能框架——它只聚焦于视图层。因此它非常容易学习，非常容易与其它库或已有项目整合。另一方面，在与相关工具和支持库一起使用时，Vue.js 也能完美地驱动复杂的单页应用。</p><h2>特点</h2><h3>易用</h3><p>已经会了HTML,CSS,JavaScript？即刻阅读指南开始构建应用。</p><h3>灵活</h3><p>简单小巧的核心，渐进式技术栈，足以应付任何规模的应用。</p><h3>性能</h3><p>20kb min+gzip 运行大小、超快虚拟 DOM 、最省心的优化。</p><h2>目录结构</h2><table><thead><tr><th>目录/文件</th><th>说明</th></tr></thead><tbody><tr><td>build</td><td>项目构建(webpack)相关代码</td></tr><tr><td>config</td><td>配置目录，包括端口号等。我们初学可以使用默认的。</td></tr><tr><td>node_modules</td><td>npm 加载的项目依赖模块</td></tr><tr><td>src</td><td>包含了几个目录及文件</td></tr><tr><td>static</td><td>静态资源目录，如图片、字体等。</td></tr><tr><td>test</td><td>初始测试目录，可删除</td></tr><tr><td>.xxxx文件</td><td>这些是一些配置文件，包括语法配置，git配置等。</td></tr><tr><td>index.html</td><td>首页入口文件，你可以添加一些 meta 信息或统计代码啥的。</td></tr><tr><td>package.json</td><td>项目配置文件。</td></tr><tr><td>README.md</td><td>项目的说明文档，markdown 格式</td></tr></tbody></table><h2>参考</h2><p>Vue.js 的 API 是参考了AngularJS、KnockoutJS、Ractive.js、Rivets.js。<br>Vue.js 的 API 的对于其他框架的参考也只是参考，其中也包含了许多 Vue.js 的独特功能。</p>
+</div>
+<!-- <div class="autoMenu" id="autoMenu" data-autoMenu></div> -->
+<div class="autoMenu" id="autoMenu"></div>
+<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.autoMenu.js"></script>
+<script>
+	$(function(){
+		$("#autoMenu").autoMenu({
+      levelOne : 'h2', //一级标题
+      levelTwo : 'h3',  //二级标题（暂不支持更多级）
+      width : 200, //容器宽度
+      height : 400, //容器高度
+      padding: 20, //内部间距
+      offTop : 100 //滚动切换导航时离顶部的距离
+    });
+	})
+	</script>
+</body>
+</html>
