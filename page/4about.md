@@ -22,6 +22,4 @@ type: page
 
 [赵兴隆](http://zhaoxinglong.com/) \| [github](https://github.com)
 
-## Comments
-
 {% include comments.html %}
